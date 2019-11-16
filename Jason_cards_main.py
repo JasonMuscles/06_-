@@ -22,7 +22,7 @@ while True:
         elif action_str == "3":
             Jason_cards_tools.search_card()
 
-    # 0 退出系统
+    # 退出系统
     elif action_str == "0":
         print("欢迎再次使用【 名片管理系统 】")
 
