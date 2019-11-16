@@ -92,6 +92,10 @@ def search_card():
 
 
 def deal_card(find_dict):
+    """处理查找到的名片
+
+    :param find_dict:查找到的名片
+    """
 
     action_str = input("请输入需要执行的操作\n"
                        "【1】修改\n"
@@ -115,10 +119,11 @@ def deal_card(find_dict):
 
 
 def input_card_info(dict_value, tip_message):
-    """
+    """输入名片信息
 
     :param dict_value: 字典原有值
     :param tip_message: 输入提示信息
+    :return: 如果输入，返回输入内容，否则返回字典原有值
     """
 
     # 1. 提示用户输入内容
